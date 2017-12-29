@@ -5,7 +5,7 @@ Once you have Emacs set up on your machine, you can replace the existing init.el
 
 
 
-The following code loads up the Emacs package manager and upadates the list available packages.
+The following code loads up the Emacs package manager and upadates the list of available packages with newer packages from the online repos.
 
 ```
 (require 'package)
@@ -17,3 +17,14 @@ The following code loads up the Emacs package manager and upadates the list avai
 (setq package-enable-at-startup nil)
 (package-initialize)
 ```
+Now, save the changes and restart Emacs. Use the following command to see the updated packages list. 
+
+`M+x and type package-list-packages`
+
+Select the following packages for install. These packages corrosponds to various features of an IDE
+
+1. Anaconda
+2. Company Anaconda
+3. Flycheck
+4. Yapfify
+5. Helm*
